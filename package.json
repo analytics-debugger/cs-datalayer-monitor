@@ -1,0 +1,30 @@
+{
+  "name": "cs-datalayer-monitor",
+  "version": "1.0.0",
+  "description": "client side datalayer monitoring library",
+  "main": "src/main.js",
+  "dependencies": {
+    "rollup-plugin-uglify": "^6.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-vallejo-com/cs-datalayer-monitor.git"
+  },
+  "author": "David Vallejo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/david-vallejo-com/cs-datalayer-monitor/issues"
+  },
+  "homepage": "https://github.com/david-vallejo-com/cs-datalayer-monitor#readme"
+}
