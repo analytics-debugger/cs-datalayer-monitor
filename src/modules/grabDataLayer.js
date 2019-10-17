@@ -24,7 +24,7 @@ const grabDataLayer = function(vendor) {
         default:
             break;
     }
-    return _dlModel;
+    return JSON.parse(JSON.stringify(_dlModel));
 };
 
 export default grabDataLayer;
