@@ -43,7 +43,6 @@ import grabDataLayer from './modules/grabDataLayer';
                             });
                         }
                     } else {
-                        if(ruleName.indexOf(':')>-1) console.log("CONDITIOJNAL RULE");
                         if (Checks[ruleName](_dataLayer[e[0]]) === false) {
                             errors.push({
                                 key: e[0],
