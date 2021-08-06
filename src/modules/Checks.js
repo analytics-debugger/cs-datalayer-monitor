@@ -18,10 +18,10 @@ const Checks = {
         return Number(v) === v && v % 1 === 0;
     },
     contains: function contains(v, string) {
-        return (v.indexOf(string) > -1) ? true : false;
+        return (typeof v !== "undefined" && v.indexOf(string) > -1) ? true : false;
     },
     notcontains: function contains(v, string) {
-        return (v.indexOf(string) === -1) ? true : false;
+        return (typeof v !== "undefined" && v.indexOf(string) === -1) ? true : false;
       },
     regex: function regex(v, _regex) {
         const re = new RegExp(_regex,'i');
